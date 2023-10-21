@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    text-decoration: none;
+}
+
+.imagem-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.section-inicio {
+    width: 100%;
+    height: 100%;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    gap: 19px;
+}
+
+.inicio-sobre {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    padding: 0 0 0 9rem;
+    gap: 20px;
+}
+
+.button-cv {
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: var(--Amarelo, #F90);
+    font-weight: 600;
+    font-size: 32px;
+    padding: 5px 15px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid rgb(54, 54, 54);
+    color: rgb(63, 63, 63);
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+strong {
+    font-size: 46px;
+    color: #f90;
+}
+
+span {
+    background: linear-gradient(90deg, #F90 0%, #FFE500 100%); /* Substitua as cores conforme necessário */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

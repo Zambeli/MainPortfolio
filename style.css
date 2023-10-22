@@ -69,6 +69,11 @@ main {
     text-wrap: wrap;
     padding: 0 0 0 9rem;
     gap: 20px;
+
+}
+
+.imagem-eu-inicio {
+    animation: flutuar 3s infinite ease-in-out;
 }
 
 .button-cv {
@@ -113,4 +118,92 @@ span {
 a {
     color: white;
     text-decoration: none;
+    padding: 8px;
 }
+
+.itens-header li a:hover {
+    background-color: white;
+    border-radius: 16px;
+    color: black;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+
+    .inicio {
+        flex-direction: column-reverse;
+        padding: 0 1rem 0 1rem;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
+
+    .inicio-sobre {
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    header {
+        padding: 0.2rem 2rem 0 2rem;
+    }
+
+    .imagem-eu-inicio {
+        width: 300px;
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    strong {
+        font-size: 32px;
+        color: #f90;
+    }
+
+    .button-cv {
+        font-size: 18px;
+    }
+    
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .itens-header {
+        display: none;
+    }
+
+    .imagem-eu-inicio {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    .imagem-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    header {
+        padding: 0.2rem 1rem 0 1rem;
+    }
+
+  }

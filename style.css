@@ -180,6 +180,12 @@ a {
 
   @media screen and (max-width: 650px) {
 
+    .inicio {
+        padding: 0 1rem 0 1rem;
+        gap: 1rem;
+        padding-top: 0;
+    }
+
     .itens-header {
         display: none;
     }

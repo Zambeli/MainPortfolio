@@ -1,53 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: #111111;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-main {
-    display: flex;
-    max-width: 1280px;
-    margin: 0 auto;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-}
-
-.itens-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 38px;
-    text-decoration: none;
-}
-
-.imagem-logo {
-    width: 80px;
-    height: 80px;
-}
-
 .section-inicio {
     width: 100%;
     height: 100%;
@@ -85,16 +35,6 @@ main {
     padding: 5px 15px;
 }
 
-footer {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    border-top: 2px solid rgb(54, 54, 54);
-    color: rgb(63, 63, 63);
-}
-
 h1 {
     font-size: 46px;
 }
@@ -113,18 +53,6 @@ span {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    padding: 8px;
-}
-
-.itens-header li a:hover {
-    background-color: white;
-    border-radius: 16px;
-    color: black;
 }
 
 @keyframes flutuar {
@@ -150,10 +78,6 @@ a {
         padding-bottom: 0;
     }
 
-    header {
-        padding: 0.2rem 2rem 0 2rem;
-    }
-
     .imagem-eu-inicio {
         width: 300px;
         height: 300px;
@@ -176,11 +100,6 @@ a {
         font-size: 18px;
     }
 
-    .imagem-logo {
-        width: 40px;
-        height: 40px;
-    }
-
     @keyframes flutuar {
         0%, 100% {
           transform: translateY(0);
@@ -200,10 +119,6 @@ a {
         padding-top: 0;
     }
 
-    .itens-header {
-        display: none;
-    }
-
     .imagem-eu-inicio {
         width: 200px;
         height: 200px;
@@ -216,11 +131,5 @@ a {
     h2 {
         font-size: 18px;
     }
-
-    header {
-        padding: 0.2rem 1rem 0 1rem;
-    }
-
-
 
   }

@@ -1,0 +1,72 @@
+h1 {
+    color: #ff9900;
+    font-size: 46px;
+}
+
+.cor {
+    background: linear-gradient(90deg, #F90 0%, #FFE500 100%); /* Substitua as cores conforme necessário */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.contatop {
+    font-size: 24px;
+    font-weight: 700;
+    text-wrap: wrap;
+}
+
+.section-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.logo-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+
+}
+
+.logo-linke {
+    width: 62px;
+}
+
+@media screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .contatop {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    
+    }
+    
+    .logo-linke {
+        width: 46px;
+    }
+
+}

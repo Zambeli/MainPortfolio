@@ -30,6 +30,7 @@ h1 {
     gap: 1rem;
     align-items: center;
     padding: 0 2rem 0 2rem;
+    max-width: 602px;
 }
 
 .logo-contato {
@@ -47,6 +48,27 @@ h1 {
 
 .logo-linke {
     width: 62px;
+}
+
+.animaçao-letra {
+    animation: aparecerContato 1s ease-in-out;
+}
+
+
+@keyframes aparecerContato {
+    from {
+      opacity: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 1400px) {
+
+    .contatos {
+        gap: 0;
+    }
+
+
 }
 
 @media screen and (max-width: 650px) {

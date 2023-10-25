@@ -1,0 +1,157 @@
+main {
+    align-items: flex-start;
+    padding: 3rem 0 0 0;
+}
+
+.section-projetos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.projeto-pequeno {
+    width: 144px;
+    height: 84px;
+    border-radius: 10px;
+}
+
+.button-cv {
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: var(--Amarelo, #F90);
+    font-weight: 600;
+    font-size: 24px;
+    padding: 2px 8px;
+}
+
+.projeto-grande {
+    width: 600px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.englobamento {
+    display: flex;
+    gap: 2rem;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.projetos-selecionado {
+    display: flex;
+}
+
+.sobre-os-projetos {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 0 1rem;
+    width: 480px;
+}
+
+h1 {
+    font-size: 46px;
+    color:  #F90;
+}
+
+h2 {
+    color:  #F90;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    main {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .projeto-grande {
+        width: 600px;
+        height: 370px;
+        border-radius: 10px;
+    }
+
+    .button-cv {
+        font-size: 16px;
+        padding: 2px 10px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .projeto-grande {
+        width: 500px;
+        height: 300px;
+    }
+
+    .englobamento {
+        flex-direction: column-reverse;
+    }
+
+    .projetos {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 975px) {
+    .projetos-selecionado {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .projetos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .projeto-grande {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .sobre-os-projetos {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        max-width: 300px;
+    }
+
+}
+

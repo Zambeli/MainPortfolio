@@ -27,7 +27,7 @@ main {
 }
 
 h2 {
-    background: linear-gradient(90deg, #F90 0%, #FFE500 100%); /* Substitua as cores conforme necessário */
+    background: linear-gradient(90deg, #F90 0%, #FFE500 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

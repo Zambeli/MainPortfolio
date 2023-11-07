@@ -56,13 +56,10 @@ a {
 
     
     a {
-        padding: 2px;
+        padding: 10px;
         font-size: 12px;
     }
 
-    header {
-        padding: 0;
-    }
 
 }
 
@@ -70,13 +67,18 @@ a {
 
     .itens-header {
         display: flex;
-        padding: 0.5rem;
+        padding: 0.5rem 0rem;
+        align-items: center;
+        justify-content: space-around;
         width: 100%;
+        text-align: center;
+        gap: 10px;
     }
 
     .imagem-logo {
         display: none;
     }
+
 
 
 }

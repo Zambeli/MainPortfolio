@@ -20,6 +20,7 @@ main {
     border-radius: 5px;
     max-width: 100%;
     height: auto;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .button-cv {
@@ -40,14 +41,19 @@ main {
 .englobamento {
     display: flex;
     gap: 2rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .projetos {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    padding: 1rem;
     align-items: center;
-    justify-content: center;
+    width: 800px;
+    overflow-x: scroll;
 }
 
 .projetos-selecionado {
@@ -93,7 +99,7 @@ h2 {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     h2 {
@@ -101,8 +107,8 @@ h2 {
     }
 
     .projeto-grande {
-        width: 600px;
-        height: 370px;
+        width: 500px;
+        height: 300px;
         border-radius: 10px;
     }
 
@@ -112,8 +118,12 @@ h2 {
     }
 
     .logo {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
+    }
+
+    p {
+        font-size: 14px;
     }
 }
 
@@ -125,7 +135,7 @@ h2 {
     }
 
     .englobamento {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .projetos {
@@ -145,14 +155,18 @@ h2 {
         gap: 1rem;
 
     }
+
+    .projetos {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 670px) {
 
     .projetos {
         display: flex;
-        flex-wrap: wrap;
         gap: 1rem;
+        width: 300px;
     }
 
     .projeto-grande {

@@ -64,7 +64,18 @@ span {
     }
   }
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1400px) {
+
+    .imagem-eu-inicio {
+        width: 500px;
+        height: 400px;
+    }
+
+  }
+
+
+
+  @media screen and (max-width: 1200px) {
 
     .inicio {
         flex-direction: column-reverse;

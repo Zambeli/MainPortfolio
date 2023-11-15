@@ -62,19 +62,10 @@ h1 {
   }
 
 
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1350px) {
 
     .contatos {
-        gap: 0;
-    }
-
-
-}
-
-@media screen and (max-width: 650px) {
-
-    h1 {
-        font-size: 24px;
+        gap: 5px;
     }
 
     .contatop {
@@ -86,9 +77,17 @@ h1 {
         height: 60px;
     
     }
-    
+
     .logo-linke {
         width: 46px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 24px;
     }
 
 }

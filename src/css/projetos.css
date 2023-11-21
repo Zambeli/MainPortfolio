@@ -30,6 +30,7 @@ main {
     font-weight: 600;
     font-size: 24px;
     padding: 2px 8px;
+    cursor: pointer;
 }
 
 .projeto-grande {
@@ -69,6 +70,7 @@ main {
     padding: 0 0 0 1rem;
     width: 480px;
 }
+
 
 h1 {
     font-size: 38px;
